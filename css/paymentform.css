@@ -1,0 +1,157 @@
+*,
+*:before,
+*:after {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg.png");
+    background-size: cover;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.payment{
+    width: 336px;
+    height: 532px;
+    background-color: #ffffff;
+    margin-top: 70px;
+}
+.payment-content{
+    width: 288px;
+    margin: auto;
+}
+.header-form{
+    background-color:  #f8edaf;
+    width: 336px;
+    height: 72px;
+}
+.header-form__content{
+    font-family: Montserrat;
+    color:  #637570;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.header-form__title{
+    padding-top: 7px;
+}
+.title-1{
+    margin: 0;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.title-2{
+    color:  #a6a28d;
+    font-size: 10px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+ }
+.header-form__price{
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+.payment-form{
+    padding-top: 45px;
+}
+.title-form{
+    color:  #9eabad;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+.payment-form__input{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bac8cb;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    color:  #727f82;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    width: 100%;
+    height: 44px;
+    padding-left: 10px;
+    margin-bottom: 28px;
+}
+.form-container{
+    display: flex;
+    justify-content: space-between;
+}
+.payment-form__input-selected{
+    width: 176px;
+    font-family: Montserrat;
+    border-style: solid;
+    border-color: #bac8cb;
+    box-sizing: border-box;
+    border-width: 2px;
+    height: 44px;
+    margin-bottom: 28px;
+    padding-left: 10px;
+    color:  #727f82;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("../img/triangle.png") 95% center no-repeat;
+}
+.input-selected__text{
+   width: 96px;
+}
+.title-form__cvv{
+    color:  #9eabad;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+.input-text{
+    color:  #9eabad;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    font-family: Montserrat;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin: 0;
+}
+.input-link{
+    color:  #9eabad;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.footer-form{
+    border-top: 1px solid #edf0f1;
+    width: 100%;
+    padding-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-form__btn{
+    background-color:  #25b86a;
+    width: 100%;
+    height: 48px;
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    border: none;
+}
+.footer-form__text{
+    font-family: Montserrat;
+    color:  #9eabad;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin-top: 20px;
+}

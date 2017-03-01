@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.my-main{
+    background-color: #E4EDED;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    flex-basis: 400px;
+    height: 496px;
+    background-image: url("../img/sign-in-bg.png");
+    padding-top: 52px;
+}
+.flex-content{
+    width: 261px;
+    margin: auto;
+}
+.form-header__link{
+    font-family: Quicksand;
+    color:  #e1c2f1;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.form-header__link:hover{
+    color: #fff;
+    border-bottom: 2px solid #e66a64;
+    padding-bottom: 3px;
+}
+.sign-form{
+    margin-top: 50px;
+}
+.sign-form__title{
+    font-family: Quicksand;
+    color:  #fbf6e4;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+.sign-form__input{
+    border-style: solid;
+    border-width: 2px;
+    border-color:  rgba(191, 185, 204, 54);
+    box-sizing: border-box;
+    background-color:  rgba(229, 238, 238, 0);
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    margin-bottom: 18px;
+    color:  #e1c2f1;
+}
+.sign-form__checkbox{
+    display: none;
+}
+.sign-form__checkbox-text{
+    position: relative;
+    font-family: Quicksand;
+    color:  #fbf6e4;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.sign-form__checkbox-text:before{
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color:  #23ae92;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.sign-form__checkbox:checked + .sign-form__checkbox-text:after{
+    content: url("../img/checkbox.png");
+    width: 10px;
+    height: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 3px;
+    top: 2px;
+
+}
+.sign-form__btn{
+    background-color:  #23ae92;
+    width: 100%;
+    height: 42px;
+    font-family: Quicksand;
+    color:  #fbf6e4;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.my-footer{
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+.my-footer__link{
+    font-family: Quicksand;
+    color:  #b9b9cc;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(150, 193, 218, 0.15);
+}
