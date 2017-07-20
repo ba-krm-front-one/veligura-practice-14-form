@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.my-main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #B9C3D9;
+}
+.flex-container{
+    border-radius: 24px;
+    background-color:  #353a45;
+    box-shadow: 13px 23px 49px 0 rgba(35, 70, 133, 0.28);
+    flex-basis: 666px;
+    height: 383px;
+    margin-top: 100px;
+    padding: 0 60px;
+}
+.my-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.my-header__logo{
+    border-radius: 50%;
+    background: -webkit-linear-gradient(31deg, #47aae6 4%, #9372bf 96%);
+    background: -moz-linear-gradient(31deg, #47aae6 4%, #9372bf 96%);
+    background: -o-linear-gradient(31deg, #47aae6 4%, #9372bf 96%);
+    background: -ms-linear-gradient(31deg, #47aae6 4%, #9372bf 96%);
+    background: url("../img/new-letter.png") no-repeat center center, linear-gradient(59deg, #47aae6 4%, #9372bf 96%);
+    box-shadow: 1px 3px 0 0 rgba(0, 0, 0, 0.13);
+    position: absolute;
+    top: -46px;
+    width: 92px;
+    height: 92px;
+}
+.my-header__link{
+    position: absolute;
+    right: -49px;
+    top: 11px;
+}
+.my-header__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.my-header__title-1{
+    font-family: Lato;
+    color: #538fff;
+    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-bottom: 22px;
+    margin-top: 0;
+}
+.my-header__title-2{
+    font-family: Lato;
+    color:  #ffffff;
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin: 0;
+}
+.form-container{
+    margin-top: 20px;
+}
+.flex-form{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.form-container__input{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #c4c4c4;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    flex-basis: 371px;
+    padding-left: 18px;
+    color:  #a9a9a9;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    margin-right: 14px;
+    flex-grow: 1;
+}
+.form-container__btn{
+    background-color:  #538fff;
+    width: 161px;
+    color:  #ffffff;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    padding-right: -14px;
+    flex-grow: 1;
+}
+.form-submit{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 52px;
+    font-family: Lato;
+    outline: none;
+}
+.my-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+.my-footer__text{
+    margin: 0;
+    font-family: Lato;
+    color:  #787d87;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-style: italic;
+}
